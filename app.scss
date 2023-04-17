@@ -1,3 +1,10 @@
+$color:(
+          navColor: #ea6465
+          mainColor: white
+          footerColor: #202020
+          textNav: black
+          textFooter:white
+);
 * {
           margin: 0;
           padding: 0;
@@ -7,7 +14,7 @@
 
 nav{
           font-family: 'Noto Serif JP', serif;
-          background: 	#ea6465;
+          background: map-get($color, navColor );
           display: flex;
           justify-content: space-between;
           align-items: center;

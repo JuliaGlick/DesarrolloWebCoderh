@@ -33,12 +33,19 @@ nav {
   font-size: 1.1rem;
 }
 
-.container {
+.container{
   display: flex;
   align-items: center;
   justify-content: center;
   bottom: 0;
   height: 100%;
+  position: relative;
+  }
+
+body {
+          position: relative;
+          padding-bottom: 5em;
+          min-height: 100vh;
 }
 
 .col-6 img {
